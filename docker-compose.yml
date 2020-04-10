@@ -62,7 +62,7 @@ services:
     networks:
       - tnp-net  
     ports:
-      - '8080:8080'
+      - '80:80'
     links:
       - mongodb-server
       - redis-server
